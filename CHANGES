@@ -1,0 +1,12 @@
+- Tue Nov 20 16:51:05 EST 2007
+
+Add minimal tests. 
+
+Testing this thing will require forking a job to 
+wait for the signal, signaling it, and watching
+for the output. Given the lack of fork on some
+systems this will not be trivial.
+
+- Tue Oct 16 20:59:07 EDT 2007
+
+Initial version
