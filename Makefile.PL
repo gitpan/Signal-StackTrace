@@ -11,6 +11,7 @@ WriteMakefile
         # standard distro, particular versions 
         # are unlikely to cause pain.
 
+        blib            => 0,
         strict          => 0,
         Carp            => 0,
         Config          => 0,
