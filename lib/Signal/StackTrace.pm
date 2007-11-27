@@ -7,6 +7,8 @@
 
 package Signal::StackTrace;
 
+require 5.006;
+
 use strict;
 
 use Carp;
@@ -18,7 +20,7 @@ use Data::Dumper;
 # package variables
 ########################################################################
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 my %known_sigz  = ();
 
