@@ -2,7 +2,6 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile
 (
-
     NAME            => 'Signal::StackTrace',
     VERSION_FROM    => './lib/Signal/StackTrace.pm',
     ABSTRACT_FROM   => './lib/Signal/StackTrace.pm',
@@ -17,5 +16,5 @@ WriteMakefile
         Config          => 0,
         Data::Dumper    => 0,
     },
-
 );
+
